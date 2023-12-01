@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-size: 16px; 
+}
+
+header {
+  display: flex;
+  background: #EBE5E5;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+
+img {
+  width: 100%;
+    max-width: 210px;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+button {
+  width: 100%; 
+  margin-top: 10px; 
+}
+
+.CajaTxt {
+  padding: 10px;
+    font-size: 18px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; 
+}
+
+.TextoHeader {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.subtitulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 5px;
+  margin: 10px 0; 
+}
+
+footer {
+  background: #EBE5E5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+ul li {
+  margin: 5px 0;
+}
+nav ul li {
+  background-color: #68F0AF;
+  margin: 0 10px; 
+  border-radius: 7px;
+}
+nav ul li a {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    border-radius: 10px;
+    background-color: #68F0AF;
+    margin: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  .item {
+    flex: 1;
+    text-align: center; 
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+}

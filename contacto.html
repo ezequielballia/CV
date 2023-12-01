@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+
+            <ul>
+                <li><a class="TextoHeader" href="index.html"> Datos personales</a></li>
+                <li><a class="TextoHeader" href="estudios.html"> Estudios</a></li>
+                <li><a class="TextoHeader" href="conocimientos.html"> Conocimientos</a></li>
+                <li><a class="TextoHeader" href="competencias.html"> Competencias</a></li>
+                <li><a class="TextoHeader" href="contacto.html"> Contacto</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <h1> Curriculum Vitae</h1>
+    <div class="item">
+        <button id="cambiarColorBtn">Cambiar Color</button>
+    </div>
+    <div class="subtitulo">
+        <h2> Contacto</h2>
+    </div>
+<main>
+    <div class="container-form">
+        <div class="info-form">
+            <h2>Contáctame</h2>
+            <p>Para organizar reuniones o entrevistas aca esta mi contacto aca y un formulario para comunicarse conmigo.</p>
+            <p>11-6598-3649</p>
+            <p> ezequielballia@gmail.com </p>
+            <p> Buenos Aires,Capital</p>
+        </div>
+        <form action="#" autocomplete="off" onsubmit="return validarFormulario()">
+            <input type="text" name="nombre" id="name" placeholder="Tu Nombre" class="campo">
+            <input type="email" name="email" id="email" placeholder="Tu Email" class="campo">
+            <textarea name="mensaje" id="message" placeholder="Tu Mensaje..."></textarea>
+            <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
+        </form>
+    </div>
+</main>
+
+    <footer>
+        <span class="TextoHeader"> Derechos reservados</span>
+    </footer>
+    <script src="java/desp.js"></script>
+</body>
+</html>
